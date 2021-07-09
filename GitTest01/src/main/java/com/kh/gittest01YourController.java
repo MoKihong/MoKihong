@@ -1,5 +1,7 @@
-public class YourController{
-  public static void naim(String[]srgs{
-    system.out.println("YourController");
+package com.kh;
+
+public class gittest01YourController{
+  public static void main(String[] args){
+    System.out.println("YourController");
   }
 }

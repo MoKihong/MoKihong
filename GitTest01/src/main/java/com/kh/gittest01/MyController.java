@@ -9,8 +9,11 @@ public class MyController {
 	
 	@RequestMapping(value="/hello" , method=RequestMethod.GET)
 	public String hello() throws Exception{
+
 		System.out.println("Hello");
 		System.out.println("¹Ý°©½À´Ï´Ù");
+
+
 		return "home";
 	}
 	
